@@ -15,7 +15,7 @@ Product.create([
     image: "candy.png"
 },
 {
-    title: "Ramen",
+    title: "Cup O Noodles",
     price: "$0.25",
     description: "Make sure to keep the microwave clean!",
     image: "ramen.jpg"

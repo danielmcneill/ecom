@@ -21,7 +21,7 @@ Product.create([
     image: "ramen.jpg"
 },
 {
-    title: "Soda Cans",
+    title: "Soda",
     price: "$0.75",
     description: "Nice and refreshing!",
     image: "soda.png"

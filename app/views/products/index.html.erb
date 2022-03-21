@@ -3,10 +3,11 @@
   <p class="text-center">Click on the image of whichever drink or snack you want!</p>
 </div>
 <hr/>
+<h4 class="text-muted"> Price: $<%= product.price %> </h4>
 <ul>
   <% @products.each do |product| %>
     <ul class="text-center">
-     <%= image.image %>
+     <%= product.image %>
      <h2><%= product.title %> </h2>
      <h4 class="text-muted"> Price: $<%= product.price %> </h4>
      <p class="text-muted"> Description: <%= product.description %> </p>

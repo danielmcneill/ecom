@@ -10,16 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_08_195526) do
-
-  create_table "image", force: :cascade do |t|
-    t.string "image"
-  end
+ActiveRecord::Schema.define(version: 2022_02_15_162143) do
 
   create_table "products", force: :cascade do |t|
     t.string "title"
     t.string "price"
     t.text "description"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
